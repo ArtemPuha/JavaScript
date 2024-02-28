@@ -1,6 +1,6 @@
 "use strict"
 
-
+//Первая ДЗ
 
 let age = prompt('Input your age please');
 var degree = age % 10
@@ -16,3 +16,22 @@ if (age === '' || isNaN(age) || age >100 || age < 0) {
 }
 
 
+//Вторая дз
+
+let number = 4
+let unit = 'hour'
+
+switch(unit) {
+    case 'km': 
+        console.log('its ' + number * 1000 + ' meters');
+        break;
+   case 'kg': 
+        console.log('its ' + number * 1000 + ' gramms');
+        break;
+    case 'hour': 
+        console.log('its ' + number * 60 + ' minutes');
+        break;
+    default: 
+    console.log('not valid values')
+    
+}
